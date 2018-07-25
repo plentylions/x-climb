@@ -1,0 +1,27 @@
+{
+    "version"           :   "0.0.1",
+    "license"           :   "AGPL-3.0",
+    "name"              :   "XclimbDE",
+    "marketplaceName"   :   {"de":"XclimbDE Vanilla","en":"XclimbDE Vanilla"},
+    "pluginIcon"        :   "icon_plugin_xs.png",
+    "authorIcon"        :   "icon_author_xs.png",
+    "email"             :   "info@plentylions.de",
+    "description"       :   "Ceres Anpassungen für XclimbDE.de",
+    "shortDescription"  :   { "de": "Ceres Anpassungen für XclimbDE.de", "en": "Ceres Anpassungen für XclimbDE.de" },
+    "namespace"         :   "XclimbDE",
+    "author"            :   "Plenty Lions GmbH",
+    "keywords"          :   ["plentymarkets", "plugins", "layout", "theme", "ceres"],
+    "price"             :   0,
+    "categories"        :   [3518],
+    "type"              :   "theme",
+    "require"           :   ["Ceres"],
+    "serviceProvider"   :   "XclimbDE\\Providers\\XclimbDEServiceProvider",
+    "dataProviders"     :
+    [
+        {
+            "key"           :"XclimbDE\\Containers\\XclimbDEContainer",
+            "name"          :"Stylesheet",
+            "description"   :"Add changes to the CSS file"
+        }
+    ]
+}
