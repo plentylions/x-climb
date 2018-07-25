@@ -31,11 +31,17 @@ body,
     margin-top: 140px;
 }
 
+#mainNavbarCollapsable ul.mainmenu li a{
+    color:#4071b1;
+}
+
 .top-bar .controls-list .control-basket .toggle-basket-preview{
     background-color: #4071b1;
 }
 .top-bar .controls-list .control-basket .toggle-basket-preview:hover,
-.top-bar .controls-list>li a:hover, .top-bar .controls-list>li a[aria-expanded=true]{
+.top-bar .controls-list>li a:hover, .top-bar .controls-list>li a[aria-expanded=true],
+.no-touch #mainNavbarCollapsable ul.mainmenu > li:hover,
+.touch #mainNavbarCollapsable ul.mainmenu > li.hover{
     background-color: #275898;
 }
 
