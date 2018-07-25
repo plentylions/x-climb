@@ -35,6 +35,10 @@ body,
     color:#4071b1;
 }
 
+#mainNavbarCollapsable ul.mainmenu li a:hover{
+    color:#fff;
+}
+
 .top-bar .controls-list .control-basket .toggle-basket-preview{
     background-color: #4071b1;
 }
